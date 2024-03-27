@@ -1,38 +1,56 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Contact Information</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        p, address {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        strong {
+            font-weight: bold;
+        }
+    </style>
 </head>
+<body>
 
-<body class="bg-gray-100">
-    <div id="contact" class="container mx-auto px-4 py-8">
-        <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
-        <div class="bg-white rounded-lg shadow-md p-6">
-            <p class="text-lg"><strong>Email:</strong> example@example.com</p>
-            <p class="text-lg"><strong>Phone:</strong> 123-456-7890</p>
-            <address class="text-lg">
-                <strong>Address:</strong> 123 Main Street, City, Country
-            </address>
-        </div>
-    </div>
+<div class="container">
+    <img src="https://dkiro2sv9s97b.cloudfront.net/dist/img/general/_190x190_crop_center-center_none/josh-square-1.jpg" alt="TruckCraft Image">
+    <p><strong>Email:</strong> no@example.com</p>
+    <p><strong>Phone:</strong> 123-456-7890</p>
+    <address>
+        <strong>Address:</strong> 123 Main Street, City, Country
+    </address>
+</div>
+
 </body>
-<body class="bg-gray-100">
-    <div id="contact" class="container mx-auto px-4 py-8">
-        <div class="bg-white rounded-lg shadow-md p-6">
-            <!-- Corrected usage of <img> tag -->
-            <img src="https://dkiro2sv9s97b.cloudfront.net/dist/img/general/_190x190_crop_center-center_none/josh-square-1.jpg" alt="TruckCraft Image" class="mb-4" style="max-width: 100%; height: auto;">
-            <p class="text-lg"><strong>Email:</strong> no@example.com</p>
-            <p class="text-lg"><strong>Phone:</strong> 123-456-7890</p>
-            <address class="text-lg">
-                <strong>Address:</strong> 123 Main Street, City, Country
-            </address>
-        </div>
-    </div>
-</body>
+</html>
 
 
 
